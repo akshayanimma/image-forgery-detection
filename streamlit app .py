@@ -17,11 +17,11 @@ import gdown
 # (GitHub's web upload has a 25MB limit; ResNet-18 checkpoints are usually
 # ~44MB, so we keep the file in Drive and fetch it here instead.)
 MODEL_PATH = "best_model.pth"
-GDRIVE_FILE_ID = "PASTE_YOUR_FILE_ID_HERE"  # see instructions below for how to get this
+GDRIVE_FILE_ID = "https://drive.google.com/file/d/1MHf68utb_vzEKE4w3GWOxUm1dgaD5DW1/view?usp=sharing"  # see instructions below for how to get this
 
 if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model (first run only)..."):
-        url = f"https://drive.google.com/uc?id={GDRIVE_FILE_ID}"
+        url = f"https://drive.google.com/uc?id={https://drive.google.com/file/d/1MHf68utb_vzEKE4w3GWOxUm1dgaD5DW1/view?usp=sharing}"
         gdown.download(url=url, output=MODEL_PATH, quiet=False, fuzzy=True)
 
 # --- Page setup ---
