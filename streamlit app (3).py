@@ -17,12 +17,12 @@ import gdown
 
 # --- Download the model checkpoint from Google Drive if not already present ---
 MODEL_PATH = "best_model.pth"
-GDRIVE_FILE_ID = "PASTE_YOUR_FILE_ID_HERE"
+GDRIVE_FILE_ID = "1MHf68utb_vzEKE4w3GWOxUm1dgaD5DW1"
 
 if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model (first run only)..."):
-        url = f"https://drive.google.com/uc?id={GDRIVE_FILE_ID}"
-        gdown.download(url=url, output=MODEL_PATH, quiet=False, fuzzy=True)
+        url = f"https://drive.google.com/uc?id={"1MHf68utb_vzEKE4w3GWOxUm1dgaD5DW1"}"
+        gdown.download(url=url, output=MODEL_PATH, quiet=False)
 
 # --- Page setup ---
 st.set_page_config(
