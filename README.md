@@ -1,4 +1,4 @@
-#Live Demo: https://image-forgery-detection-9ukjkmguvtksnil5vfcuz3.streamlit.app/
+Live Demo: https://image-forgery-detection-9ukjkmguvtksnil5vfcuz3.streamlit.app/
 # Image Forgery / Tamper Detection
 
 A binary image classifier that detects whether an image has been digitally
