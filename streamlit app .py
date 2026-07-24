@@ -21,7 +21,7 @@ GDRIVE_FILE_ID = "1MHf68utb_vzEKE4w3GWOxUm1dgaD5DW1"  # see instructions below f
 
 if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model (first run only)..."):
-        url = f"https://drive.google.com/uc?id={https://drive.google.com/file/d/1MHf68utb_vzEKE4w3GWOxUm1dgaD5DW1/view?usp=sharing}"
+        url = f"https://drive.google.com/uc?id={1MHf68utb_vzEKE4w3GWOxUm1dgaD5DW1}"
         gdown.download(url=url, output=MODEL_PATH, quiet=False, fuzzy=True)
 
 # --- Page setup ---
