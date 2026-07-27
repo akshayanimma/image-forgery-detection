@@ -1,4 +1,3 @@
-Live Demo: https://image-forgery-detection-9ukjkmguvtksnil5vfcuz3.streamlit.app/
 # Image Forgery Detection Classifier
 
 An end-to-end ML project that fine-tunes a ResNet-18 to detect digitally
